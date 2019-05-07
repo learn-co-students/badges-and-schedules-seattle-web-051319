@@ -7,7 +7,7 @@ def batch_badge_creator(attendees)
 end
 
 def assign_rooms(attendees)
-  return badges + room_assignments
+  badges.concat(room_assignments)
 end
 
 def printer(attendees)
