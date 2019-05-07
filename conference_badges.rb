@@ -3,13 +3,14 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(attendees)
-  return badges
+  return attendees
 end
 
-def assign_rooms(attendees)
-  badges.concat(room_assignments)
-end
+#def assign_rooms(attendees)
+  #attendees.collect{|attendees| add room number?}
+#end
 
-def printer(attendees)
-  puts badges + room_assignments
-end
+#def printer(attendees)
+#  badges
+#  room_assignments
+#end
