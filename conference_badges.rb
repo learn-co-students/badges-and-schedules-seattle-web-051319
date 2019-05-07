@@ -8,9 +8,10 @@ def batch_badge_creator(attendees)
   end
 end
 
-def assign_rooms(attendees)
-  attendees.each_with_index do |attendee, i+1 |
+def assign_rooms(attendees, rooms)
+  attendees.each_with_index do |attendee, i|
     room_assignments(attendee)
+  end
 end
 
 #def printer(attendees)
